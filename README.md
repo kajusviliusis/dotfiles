@@ -1,2 +1,2 @@
 # dotfiles
-config files for i3, kitty, waybar, tmux, redshift and neovim
+config files for i3, kitty, polybar, tmux, redshift and neovim
