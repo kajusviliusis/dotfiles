@@ -7,7 +7,7 @@ sudo apt update && sudo apt upgrade -y
 # Tools
 # -----------------------------
 echo "Installing build-essential, cmake, git..."
-sudo apt install -y build-essential cmake git curl wget unzip
+sudo apt install -y build-essential cmake git curl wget maven
 
 # -----------------------------
 # C++ / GCC / Clang
