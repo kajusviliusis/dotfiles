@@ -1,0 +1,11 @@
+show=drun
+width=35%
+height=450
+location=center
+always_parse_args=true
+show_all=false
+print_command=true
+insensitivy=true
+allow_images=true
+image_size=32
+hide_search=false
