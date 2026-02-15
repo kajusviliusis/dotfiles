@@ -1,12 +1,17 @@
-set $mod Mod4
+# Use Alt for mod key
+set $mod Mod1
+
+# Define Super key for specific shortcuts
+set $super Mod4
+
 exec_always --no-startup-id bash -c "sleep 1 && ~/.config/polybar/launch.sh"
 
-# Touchpad Settings (Using the name from your xinput list)
+# Touchpad Settings
 exec_always --no-startup-id xinput set-prop "GXTP7863:00 27C6:01E0 Touchpad" "libinput Tapping Enabled" 1
 exec_always --no-startup-id xinput set-prop "GXTP7863:00 27C6:01E0 Touchpad" "libinput Natural Scrolling Enabled" 1
 
-# Set keyboard layouts and a toggle key
-exec_always --no-startup-id "setxkbmap -layout us,lt -option 'grp:alt_shift_toggle'"
+# Toggle between US and LT
+bindsym $super+space exec "setxkbmap -query | grep -q 'layout:     us' && setxkbmap lt || setxkbmap us"
 
 exec --no-startup-id picom
 # Font for window titles. Will also be used by the bar unless a different font
@@ -70,7 +75,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $super+Return exec i3-sensible-terminal
 
 # kill focused window
 bindsym Control+d kill
