@@ -9,7 +9,7 @@ set $up k
 set $right l
 
 ### Output / Wallpaper ###
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg /usr/share/backgrounds/sway/923768.jpg fill
 
 ### Input: Touchpad ###
 input type:touchpad {
@@ -34,6 +34,12 @@ bindsym $mod+Shift+c reload
 
 # Exit Sway
 bindsym $mod+Shift+e exec swaynag -t warning -m 'Exit Sway?' -B 'Yes, exit sway' 'swaymsg exit'
+
+# Full screen to clipboard
+bindsym Shift+Print exec grim - | wl-copy
+
+# Select area to clipboard
+bindsym Ctrl+Shift+Print exec grim -g "$(slurp)" - | wl-copy
 
 # Move focus
 bindsym $mod+$left focus left
