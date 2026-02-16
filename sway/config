@@ -18,6 +18,13 @@ input type:touchpad {
     dwt enabled
 }
 
+### Keyboard Layouts ###
+input type:keyboard {
+    xkb_layout us,lt
+    xkb_options grp:win_space_toggle
+}
+
+
 ### Keybindings ###
 
 # Terminal
