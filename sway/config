@@ -9,7 +9,7 @@ set $up k
 set $right l
 
 ### Output / Wallpaper ###
-output * bg /usr/share/backgrounds/sway/923768.jpg fill
+output * bg /usr/share/backgrounds/sway/vilnius.jpg fill
 
 ### Input: Touchpad ###
 input type:touchpad {
