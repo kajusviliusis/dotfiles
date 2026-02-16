@@ -27,7 +27,7 @@ bindsym $super+Return exec $term
 bindsym $mod+Shift+q kill
 
 # Launcher
-bindsym $mod+d exec $menu
+bindsym Ctrl+space exec $menu
 
 # Reload config
 bindsym $mod+Shift+c reload
