@@ -1,0 +1,32 @@
+window {
+    background: rgba(30, 30, 30, 0.85);
+    border-radius: 8px;
+    padding: 8px;
+}
+
+listview {
+    lines: 10;
+    background: transparent;
+}
+
+element {
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+element selected {
+    background: #5e81ac;
+    foreground: #eceff4;
+}
+
+element normal {
+    background: transparent;
+    foreground: #d8dee9;
+}
+
+inputbar {
+    padding: 4px 8px;
+    border-radius: 6px;
+    background: rgba(50, 50, 50, 0.6);
+    text-color: #eceff4;
+}
