@@ -5,6 +5,7 @@ local servers = {
   "cssls",
   "omnisharp",
   "clangd",
+  "jdtls",
 }
 
 vim.lsp.enable(servers)
