@@ -6,6 +6,7 @@ local servers = {
   "omnisharp",
   "clangd",
   "jdtls",
+  "gopls",
 }
 
 vim.lsp.enable(servers)
