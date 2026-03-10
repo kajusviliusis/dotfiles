@@ -15,20 +15,20 @@ return {
     "obsidian-nvim/obsidian.nvim",
     version = "*",
     ft = "markdown",
-    dependencies = {
-      "nvim-lua/plenary.nvim",
-    },
+    dependencies = { "nvim-lua/plenary.nvim" },
     opts = {
       workspaces = {
-        {
-          name = "notes",
-          path = "~/notes",
-        },
+        { name = "notes", path = "~/notes" },
       },
       legacy_commands = false,
       ui = {
-        enable = false,
+        enable = true,
       },
+      image_folder ="images",
     },
+    config = function(_, opts)
+      require("obsidian").setup(opts)
+      vim.o.conceallevel = 2
+    end,
   },
 }
