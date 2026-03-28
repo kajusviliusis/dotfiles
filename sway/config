@@ -135,7 +135,15 @@ exec waybar
 exec nm-applet
 exec blueman-applet
 
+# Gammastep
+exec gammastep
+
+# Notifications
+exec_always mako
+exec_always ~/.config/sway/batteryalert.sh
+
 ### Include system configs ###
 include /etc/sway/config-vars.d/*
 #include /etc/sway/config.d/*
+
 
