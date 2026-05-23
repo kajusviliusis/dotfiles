@@ -20,9 +20,14 @@
     },
 
     "battery": {
-        "format": "{capacity}%",
-        "format-charging": "⚡ {capacity}%",
-        "format-discharging": "{capacity}%"
+        "format": "bat {capacity}%",
+        "format-charging": "bat ⚡ {capacity}%",
+        "format-discharging": "bat {capacity}%"
+    },
+
+    "pulseaudio": {
+        "format": "vol {volume}%",
+        "format-muted": "vol muted"
     },
 
     "network": {
@@ -35,4 +40,3 @@
         "pin": true
     }
 }
-
