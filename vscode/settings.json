@@ -1,0 +1,33 @@
+{
+    "redhat.telemetry.enabled": false,
+    "vim.smartRelativeLine": true,
+    "emmet.preferences": {
+ 
+    },
+ 
+    "vim.handleKeys": {
+    "<D-c>": false,
+    "<D-f>": false,
+    "<D-v>": false,
+    "<D-x>": false,
+    "<D-z>": false,
+    "<D-s>": false,
+ 
+    "<C-c>": false,
+    "<C-f>": false,
+    "<C-v>": false,
+    "<C-x>": false,
+    "<C-z>": false,
+    "<C-s>": false
+    },
+    "editor.dropIntoEditor.preferences": [
+ 
+    ],
+    "javascript.preferences.organizeImports": {
+ 
+    },
+    "workbench.settings.applyToAllProfiles": [
+       
+    ],
+ 
+}
