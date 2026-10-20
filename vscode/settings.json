@@ -1,33 +1,34 @@
 {
     "redhat.telemetry.enabled": false,
     "vim.smartRelativeLine": true,
-    "emmet.preferences": {
- 
-    },
- 
+    "emmet.preferences": {},
     "vim.handleKeys": {
-    "<D-c>": false,
-    "<D-f>": false,
-    "<D-v>": false,
-    "<D-x>": false,
-    "<D-z>": false,
-    "<D-s>": false,
- 
-    "<C-c>": false,
-    "<C-f>": false,
-    "<C-v>": false,
-    "<C-x>": false,
-    "<C-z>": false,
-    "<C-s>": false
+        "<D-c>": false,
+        "<D-f>": false,
+        "<D-v>": false,
+        "<D-x>": false,
+        "<D-z>": false,
+        "<D-s>": false,
+        "<C-c>": false,
+        "<C-f>": false,
+        "<C-v>": false,
+        "<C-x>": false,
+        "<C-z>": false,
+        "<C-s>": false
     },
-    "editor.dropIntoEditor.preferences": [
- 
-    ],
-    "javascript.preferences.organizeImports": {
- 
+    "editor.dropIntoEditor.preferences": [],
+    "javascript.preferences.organizeImports": {},
+    "workbench.settings.applyToAllProfiles": [],
+    "editor.fontSize": 17,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
     },
-    "workbench.settings.applyToAllProfiles": [
-       
-    ],
- 
+    "git.blame.statusBarItem.enabled": true,
+    "files.autoSave": "afterDelay",
+    "java.implementationCodeLens": "all",
+    "java.referencesCodeLens.enabled": true,
+    "java.referencesCodeLens.includeFields": true,
 }
